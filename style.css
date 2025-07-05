@@ -1,0 +1,123 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+main section div {
+    width: 18%;
+    padding: 2.25%;
+    border-radius: 64px 48px 10px 96px;
+    background-color: #FDE2AA;
+    border: 4px solid #FE8E66;
+    outline: 5px solid #FDE2AA;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 6px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+main section {
+    gap: 2%;
+    justify-content: center;
+    background-color: #FEFBE8;
+    width: 100%;
+    display: flex;
+}
+
+div h2 {
+    color: #F16F33;
+}
+
+header {
+    background-color: #D9E694;
+    width: 100%;
+    display: inline-block;
+}
+
+header h1 {
+    margin: 1%;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    color: #F16F33;
+    font-size: 42px;
+}
+
+
+header ul li {
+    list-style: none;
+    width: 15%;
+    float: left;
+    text-align: center;
+    padding: 1%;
+    border-right: 2px solid #F16F33;
+    margin-bottom: 0.75%;
+
+}
+
+header ul li:first-child {
+    margin-left: 24.25%;
+}
+
+header ul li:last-child {
+    border-right: 0px solid #F16F33;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #F16F33;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main section div img {
+    width: 17%;
+    margin: 2%;
+}
+
+footer {
+    background-color: #D9E694;
+    width: 100%;
+    display: inline-block;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+footer p {
+    width: 30%;
+    margin-left: 5%;
+    color: black;
+}
+
+
+main section div:hover {
+    margin-top: 3%;
+    margin-bottom: 7%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #ffecc8;
+    border: 4px solid #da6b3f;
+    outline: 5px solid #ffecc8;
+        box-shadow: 6px 4px 10px rgba(0, 0, 0, 0.8);
+
+
+}
+
+main section div:hover h2 {
+    color: #da6b3f;
+    transition: all 0.3s;
+
+}
+
+main section div:hover img {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+a:hover {
+    color: #aa4f2b;
+    transition: all 0.3s;
+
+}
